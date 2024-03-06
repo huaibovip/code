@@ -1,0 +1,107 @@
+name: MR-CT Dataset
+url: https://zenodo.org/record/583096
+root: G:/datasets/Pelvis/Gold-Atlas/data
+modals:
+- MR
+- CT
+synthesis_cfg:
+- MR_CT
+dataset:
+  train:
+    0:
+      name: 1_01_P
+      min: 4
+      max: 81
+      len: 78
+    1:
+      name: 1_02_P
+      min: 5
+      max: 97
+      len: 93
+    2:
+      name: 1_03_P
+      min: 1
+      max: 84
+      len: 84
+    3:
+      name: 1_05_P
+      min: 6
+      max: 92
+      len: 87
+    4:
+      name: 1_07_P
+      min: 4
+      max: 89
+      len: 86
+    5:
+      name: 1_08_P
+      min: 4
+      max: 78
+      len: 75
+    6:
+      name: 2_03_P
+      min: 5
+      max: 113
+      len: 109
+    7:
+      name: 2_04_P
+      min: 4
+      max: 113
+      len: 110
+    8:
+      name: 2_09_P
+      min: 5
+      max: 114
+      len: 110
+    9:
+      name: 2_11_P
+      min: 11
+      max: 113
+      len: 103
+    10:
+      name: 3_01_P
+      min: 3
+      max: 63
+      len: 61
+    11:
+      name: 3_02_P
+      min: 5
+      max: 73
+      len: 69
+    12:
+      name: 3_04_P
+      min: 6
+      max: 80
+      len: 75
+  val:
+    0:
+      name: 1_06_P
+      min: 4
+      max: 89
+      len: 86
+    1:
+      name: 3_03_P
+      min: 6
+      max: 86
+      len: 81
+  test:
+    0:
+      name: 1_04_P
+      min: 6
+      max: 76
+      len: 71
+    1:
+      name: 2_05_P
+      min: 5
+      max: 113
+      len: 109
+    2:
+      name: 2_06_P
+      min: 4
+      max: 90
+      len: 87
+    3:
+      name: 2_10_P
+      min: 5
+      max: 90
+      len: 86

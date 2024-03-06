@@ -1,0 +1,415 @@
+name: IXI Dataset
+url: http://brain-development.org/ixi-dataset
+modals:
+- T1
+- T2
+- PD
+synthesis_cfg:
+- T1_T2__PD
+- T1_PD__T2
+- T2_PD__T1
+- T2_PD
+dataset:
+  test:
+    0:
+      name: IXI026-Guys-0696
+      min: 10
+      max: 107
+      len: 98
+    1:
+      len: 97
+      max: 116
+      min: 20
+      name: IXI142-Guys-0786
+    2:
+      len: 90
+      max: 111
+      min: 22
+      name: IXI098-Guys-0745
+    3:
+      len: 105
+      max: 114
+      min: 10
+      name: IXI106-Guys-0760
+    4:
+      len: 98
+      max: 117
+      min: 20
+      name: IXI043-Guys-0714
+    5:
+      len: 98
+      max: 116
+      min: 19
+      name: IXI037-Guys-0704
+    6:
+      len: 99
+      max: 119
+      min: 21
+      name: IXI070-Guys-0767
+    7:
+      len: 95
+      max: 124
+      min: 30
+      name: IXI652-Guys-1116
+    8:
+      len: 101
+      max: 117
+      min: 17
+      name: IXI091-Guys-0762
+    9:
+      len: 93
+      max: 113
+      min: 21
+      name: IXI117-Guys-0763
+    10:
+      len: 93
+      max: 115
+      min: 23
+      name: IXI044-Guys-0712
+    11:
+      len: 92
+      max: 116
+      min: 25
+      name: IXI075-Guys-0754
+    12:
+      len: 94
+      max: 118
+      min: 25
+      name: IXI119-Guys-0765
+    13:
+      len: 102
+      max: 118
+      min: 17
+      name: IXI101-Guys-0749
+    14:
+      len: 95
+      max: 114
+      min: 20
+      name: IXI114-Guys-0737
+    15:
+      len: 96
+      max: 113
+      min: 18
+      name: IXI054-Guys-0707
+    16:
+      len: 94
+      max: 115
+      min: 22
+      name: IXI068-Guys-0756
+  train:
+    0:
+      len: 93
+      max: 115
+      min: 23
+      name: IXI066-Guys-0731
+    1:
+      len: 98
+      max: 117
+      min: 20
+      name: IXI088-Guys-0758
+    2:
+      len: 95
+      max: 115
+      min: 21
+      name: IXI069-Guys-0769
+    3:
+      len: 100
+      max: 111
+      min: 12
+      name: IXI086-Guys-0728
+    4:
+      len: 100
+      max: 119
+      min: 20
+      name: IXI063-Guys-0742
+    5:
+      len: 100
+      max: 118
+      min: 19
+      name: IXI112-Guys-0735
+    6:
+      len: 94
+      max: 112
+      min: 19
+      name: IXI055-Guys-0730
+    7:
+      len: 95
+      max: 118
+      min: 24
+      name: IXI061-Guys-0715
+    8:
+      len: 103
+      max: 116
+      min: 14
+      name: IXI017-Guys-0698
+    9:
+      len: 95
+      max: 119
+      min: 25
+      name: IXI191-Guys-0801
+    10:
+      len: 95
+      max: 116
+      min: 22
+      name: IXI140-Guys-0787
+    11:
+      len: 91
+      max: 115
+      min: 25
+      name: IXI178-Guys-0778
+    12:
+      len: 95
+      max: 121
+      min: 27
+      name: IXI138-Guys-0746
+    13:
+      len: 100
+      max: 112
+      min: 13
+      name: IXI020-Guys-0700
+    14:
+      len: 100
+      max: 119
+      min: 20
+      name: IXI024-Guys-0705
+    15:
+      len: 96
+      max: 119
+      min: 24
+      name: IXI134-Guys-0780
+    16:
+      len: 100
+      max: 113
+      min: 14
+      name: IXI016-Guys-0697
+    17:
+      len: 97
+      max: 116
+      min: 20
+      name: IXI060-Guys-0709
+    18:
+      len: 106
+      max: 120
+      min: 15
+      name: IXI644-Guys-1121
+    19:
+      len: 90
+      max: 113
+      min: 24
+      name: IXI107-Guys-0761
+    20:
+      len: 100
+      max: 121
+      min: 22
+      name: IXI022-Guys-0701
+    21:
+      len: 97
+      max: 117
+      min: 21
+      name: IXI153-Guys-0782
+    22:
+      len: 95
+      max: 118
+      min: 24
+      name: IXI118-Guys-0764
+    23:
+      len: 97
+      max: 113
+      min: 17
+      name: IXI115-Guys-0738
+    24:
+      len: 95
+      max: 116
+      min: 22
+      name: IXI077-Guys-0752
+    25:
+      len: 100
+      max: 115
+      min: 16
+      name: IXI100-Guys-0747
+    26:
+      len: 100
+      max: 120
+      min: 21
+      name: IXI073-Guys-0755
+    27:
+      len: 92
+      max: 113
+      min: 22
+      name: IXI040-Guys-0724
+    28:
+      len: 97
+      max: 118
+      min: 22
+      name: IXI144-Guys-0788
+    29:
+      len: 100
+      max: 113
+      min: 14
+      name: IXI179-Guys-0777
+    30:
+      len: 92
+      max: 115
+      min: 24
+      name: IXI071-Guys-0770
+    31:
+      len: 100
+      max: 113
+      min: 14
+      name: IXI041-Guys-0706
+    32:
+      len: 95
+      max: 116
+      min: 22
+      name: IXI087-Guys-0768
+    33:
+      len: 96
+      max: 113
+      min: 18
+      name: IXI062-Guys-0740
+    34:
+      len: 95
+      max: 117
+      min: 23
+      name: IXI027-Guys-0710
+    35:
+      len: 93
+      max: 115
+      min: 23
+      name: IXI113-Guys-0776
+    36:
+      len: 98
+      max: 112
+      min: 15
+      name: IXI053-Guys-0727
+    37:
+      len: 99
+      max: 119
+      min: 21
+      name: IXI045-Guys-0713
+    38:
+      len: 100
+      max: 119
+      min: 20
+      name: IXI021-Guys-0703
+    39:
+      len: 103
+      max: 116
+      min: 14
+      name: IXI129-Guys-0775
+    40:
+      len: 95
+      max: 112
+      min: 18
+      name: IXI019-Guys-0702
+    41:
+      len: 99
+      max: 112
+      min: 14
+      name: IXI122-Guys-0773
+    42:
+      len: 98
+      max: 114
+      min: 17
+      name: IXI042-Guys-0725
+    43:
+      len: 100
+      max: 113
+      min: 14
+      name: IXI023-Guys-0699
+    44:
+      len: 93
+      max: 115
+      min: 23
+      name: IXI076-Guys-0753
+    45:
+      len: 102
+      max: 116
+      min: 15
+      name: IXI089-Guys-0757
+    46:
+      len: 96
+      max: 114
+      min: 19
+      name: IXI038-Guys-0729
+    47:
+      len: 93
+      max: 114
+      min: 22
+      name: IXI084-Guys-0741
+    48:
+      len: 102
+      max: 117
+      min: 16
+      name: IXI121-Guys-0772
+    49:
+      len: 100
+      max: 112
+      min: 13
+      name: IXI050-Guys-0711
+    50:
+      len: 101
+      max: 118
+      min: 18
+      name: IXI103-Guys-0750
+    51:
+      len: 93
+      max: 110
+      min: 18
+      name: IXI593-Guys-1109
+    52:
+      len: 93
+      max: 117
+      min: 25
+      name: IXI135-Guys-0779
+    53:
+      len: 100
+      max: 117
+      min: 18
+      name: IXI030-Guys-0708
+    54:
+      len: 102
+      max: 120
+      min: 19
+      name: IXI058-Guys-0726
+    55:
+      len: 95
+      max: 117
+      min: 23
+      name: IXI143-Guys-0785
+  val:
+    0:
+      len: 96
+      max: 113
+      min: 18
+      name: IXI111-Guys-0734
+    1:
+      len: 100
+      max: 116
+      min: 17
+      name: IXI065-Guys-0744
+    2:
+      len: 98
+      max: 115
+      min: 18
+      name: IXI123-Guys-0774
+    3:
+      len: 98
+      max: 117
+      min: 20
+      name: IXI078-Guys-0751
+    4:
+      len: 96
+      max: 117
+      min: 22
+      name: IXI074-Guys-0771
+    5:
+      len: 104
+      max: 121
+      min: 18
+      name: IXI099-Guys-0748
+    6:
+      len: 95
+      max: 116
+      min: 22
+      name: IXI064-Guys-0743
